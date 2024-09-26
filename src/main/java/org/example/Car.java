@@ -16,6 +16,10 @@ public class Car {
         return "[car] brand: " + brand + ", color: " + color + ", body type: " + bodyType;
     }
 
+    public String dumpCar() {
+        return brand + " " + color + " " + bodyType;
+    }
+
     public void doNoise() {
         System.out.println("шшшшш");
     }
